@@ -41,7 +41,7 @@ def epsilon_greedy(state_vector, epsilon):
         (int, int): the indices describing the action/object to take
     """
     # TODO Your code here
-    action_index, object_index = None, None
+    action_index, object_index = None, None #Todo
     return (action_index, object_index)
 
 class DQN(nn.Module):
